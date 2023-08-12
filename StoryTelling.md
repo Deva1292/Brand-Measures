@@ -33,3 +33,4 @@ After the calls, we have the speech data. How to implement AI or Data Science? W
 1. ASR - Automatic Speech Recognition ( Noisy, Quality of data/sound not good)
 
 How to frame the statement?
+hello
