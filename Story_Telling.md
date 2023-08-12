@@ -1,4 +1,4 @@
-**STORY TELLING**
+**STORYTELLING**
 
 1. Understand the scenario
 2. How Data Science can help
