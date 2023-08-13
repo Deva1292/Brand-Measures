@@ -1,3 +1,7 @@
+**Brand Measures**
+
+The goal is to know about a product's popularity or to sell a product in a new segment based on the information available from telephonic survey data. After having sufficient information regarding that product we try to do marketing in various regions and increase the sales for revenue generation.
+
 **STORYTELLING**
 
 1. Understand the scenario
@@ -51,3 +55,42 @@ Tasks: (Possible steps)
 
 Now the Data has been separated.
 
+**Module Exploration**
+
+1. Audio Segmentation
+2. Speaker Diarization
+3. Speech Separation
+
+After Data extraction, the data is present in speech/text format.
+There might be errors so after passing through the speech engine, we use a spell corrector and find keywords. Then we will get the target. 
+
+In summary,
+1. Recording/conversation
+2. ASR - Analyse the data
+3. Separation technique
+4. Spell corrector
+5. Keyword spotting
+
+**ASR**
+
+1. DL approaches
+2. API - Google, Azure, AWS
+3. Offline API - CMU, Google, Wit.ai, Watson, Houndity
+
+**Speech Recognition**
+
+1. Speech Engine (PyPI) (Google Cloud API)
+
+**API Based Approach**
+
+Con - Response time (if its online)
+Query --> Engine --> Response
+Response Time 1, 2, 3 sec
+Offline System Response time can be reduced by 1 or 2 sec
+Google is the most famous cloud service 
+
+**Deep Learning Approach**
+
+ASR Engine:
+1. Deep Speech (TF-based implementation) (from Google)
+2. Fair Seq (from Facebook) (Pytorch-based implementation)
