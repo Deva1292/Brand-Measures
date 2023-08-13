@@ -32,5 +32,21 @@ The sample product has been given to everyone who did the survey. Now, to follow
 After the calls, we have the speech data. How to implement AI or Data Science? What can be done with this particular data? 
 1. ASR - Automatic Speech Recognition ( Noisy, Quality of data/sound not good)
 
-How to frame the statement?
-hello
+How to frame the problem statement?
+    
+How to identify the target (variable)?
+Target: Keywords from conversational data
+
+Identify the keywords (nouns, pronouns)
+Building a grammatical engine helps to identify the keywords which will give an idea about the product 
+Create a dictionary and store the necessary keywords in it.
+The Dictionary consists of keywords like our own products, competitor's products, expensive, cheap, pricey, and availability.
+    
+Focus on the answers given by customers and not on the questions asked by the employee.
+
+Tasks: (Possible steps)
+1. Speech Separation
+2. Diarization
+3. Demasking
+
+
